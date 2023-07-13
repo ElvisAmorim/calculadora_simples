@@ -1,0 +1,104 @@
+button {
+    margin-top: 30px;
+    border: none;
+    color: #fff;
+    background-image: linear-gradient(30deg, #0400ff, #4ce3f7);
+    border-radius: 20px;
+    background-size: 100% auto;
+    font-family: inherit;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 0.6em 1.5em;
+
+        &:hover{
+            background-position: right center;
+            background-size: 200% auto;
+            animation: 1.5s infinite;
+        }
+   }
+  
+
+   main {
+    max-width: 50rem;
+    margin: 2rem auto;
+    padding: 3rem 1.6rem 6rem 1.6rem;
+    --background: #474bff;
+    background: -webkit-linear-gradient(0deg, #474bff 0%, #bc48ff 100%);
+    background: linear-gradient(0deg, #474bff 0%, #bc48ff 100%);
+    border-radius: 4rem;
+   }
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0px 5px 10px #3f4d49;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.inputoper[type="radio"] {
+  appearance:none;
+  width: 20px;
+  height: 20px;
+  background: #eeeeee;
+  box-shadow:
+    inset 0 0 0 .2em white,
+    0 0 0 .3em;
+  border-radius: 50%;
+  transition: .2s;
+  cursor:pointer;
+  color: #363945;
+
+/*   font-size: 2rem;
+  text-align: center; */
+
+    &:hover,
+    &:checked {
+        background: #363945;
+        box-shadow:
+        inset 0 0 0 .6em white,
+        0 0 0 .3em;
+    }
+    
+    &:checked {
+        background: #474bff;
+        box-shadow:
+        inset 0 0 0 .2em white,
+        0 0 0 .3em #474bff;
+    } 
+
+    &:focus { outline: 0; }
+}
+
+b{
+    font-size: 40px;
+    text-align: inherit;
+
+}
+
+.operacoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.bt{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.cxTxt{
+    display:grid;
+    grid-gap: 1px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.inputcx {  
+    text-align: center;
+    font-size: 2rem;

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main>
+    
+    <div class="scPrincipal">
+        <h1>Calculadora Simples</h1>
+    
+    <div class="cxTxt">
+        <input class="inputcx" type="number" id="inpUm">
+        <br>
+        <input class="inputcx" type="number" id="inpDois">
+        <br>
+    </div>
+
+
+    <div class="operacoes">
+        <input class="inputoper" type="radio" checked id="radio1" name="sign-area" value="adicao"><b> +&ensp;</b>
+        <input class="inputoper" type="radio" id="radio2" name="sign-area" value="subtracao"><b> -&ensp;</b>
+        <input class="inputoper" type="radio" id="radio3" name="sign-area" value="multiplicacao"><b> *&ensp;</b>
+        <input class="inputoper" type="radio" id="radio4" name="sign-area" value="divisao"><b> /&ensp;</b>
+        <br>
+    </div>
+
+    <div class="bt">
+        <button onclick="resultado()" type="button">Calcular</button>
+    </div>
+        <h1 id="areaResult"></h1>
+    </div>
+
+    </main>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
